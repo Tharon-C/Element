@@ -3,11 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.5.4",
+    "classnames": "^2.2.6",
+    "filter-react-dom-props": "0.0.2",
     "react": "^16.6.0",
     "react-dom": "^16.6.0",
+    "react-jss": "^8.6.1",
     "react-scripts": "2.1.1"
   },
   "scripts": {
+    "style-guide": "npx styleguidist server",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -21,5 +26,8 @@
     "not dead",
     "not ie <= 11",
     "not op_mini all"
-  ]
+  ],
+  "devDependencies": {
+    "react-styleguidist": "^8.0.2"
+  }
 }

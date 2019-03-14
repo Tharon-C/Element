@@ -1,0 +1,9 @@
+```jsx
+<Element
+    elevation={6} 
+    typography="label"
+    whitespace="p3"
+>
+    Hello
+</Element>
+```
